@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "docker",
+    "password": "docker",
+    "database": "app-db",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port": "33060"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "docker",
+    "password": "docker",
+    "database": "app-db",
+    "host": "db",
+    "dialect": "mysql",
+    "port": "3306"
+  }
+}
